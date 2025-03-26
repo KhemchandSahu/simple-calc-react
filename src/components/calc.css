@@ -1,0 +1,105 @@
+body{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calc{
+    height: 560px;
+    width: 330px;
+    border-radius: 20px;
+    background-color: #111;
+    border: 0.2px solid rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 2px 3px 5px #333, inset -3px -3px 3px 0px #222, 5px 10px 40px 5px rgba(0, 0, 0, 0.74);
+}
+
+.kecio{
+    padding: 9px 0 0 23px;
+    color: #aaa;
+}
+
+.cir{
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #000;
+    border: 0.1px solid #444;
+    right:21px;
+    top: 12px;
+}
+
+.display{
+    height: 100px;
+    background-color: #eee;
+    margin: 10px 20px;
+    padding: 10px;
+    padding-bottom: none;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    font-size: 40px;
+    text-align: end;
+    overflow: hidden;
+    box-shadow: inset 2px 2px 5px #333;
+    /* margin-top: 20px; */
+
+
+}
+
+.equals{
+    font-size: 25px;
+    color:#555;
+}
+
+.keys{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px ;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 25px;
+    border: 2px solid rgb(26, 26, 26);
+}
+
+.keys button{
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+    background-color: #1b1b1b;
+    box-shadow: 0.4px 0.5px 1.5px rgba(255, 255, 255, 0.541);
+}
+
+.keys button:hover{
+    background-color: #252525;
+}
+
+.keys button:active{
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.541) ; 
+    font-size: 24px;
+}
+
+button.op{
+    background-color: #ff9215;
+}
+
+button.op:hover{
+    background-color: #ffaa25;
+}
+
+button.ex{
+    background-color: #121212;
+}
+
+button.ex:hover{
+    background-color: #202020;
+
+}
