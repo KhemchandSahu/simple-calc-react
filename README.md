@@ -1,8 +1,10 @@
-calc project -->
+Calculator project using React -->
 
     body of calc:
-        display comp.
-            typed 
-            equals
-        keys comp.
-            all keys
+    |
+    |___display component:
+    |   |___typed value
+    |   |___equals value
+    |
+    |___keys component:
+        |___all keys
